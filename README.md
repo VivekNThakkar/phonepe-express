@@ -11,11 +11,11 @@ Welcome to the Node.js Express PhonePe Payment Gateway Integration repository! T
 
 For testing purposes in the UAT environment, use the following credentials:
 
-Card number: 4242424242424242
-Expiry month: 12
-Expiry year: 44
-CVV: 936
-OTP: 123456
+Card number: `4242424242424242`
+Expiry month: `12`
+Expiry year: `44`
+CVV: `936`
+OTP: `123456`
 
 ## How to Run
 
@@ -46,8 +46,8 @@ Endpoint: /payment/validate/:merchantTransactionId
 ## Contact Information
 For any inquiries, collaborations, or development work, feel free to reach out:
 
-LinkedIn: https://www.linkedin.com/in/vivek-thakkar-b94361121/
-Email: thakkarv29@gmail.com
-GitHub: https://github.com/VivekNThakkar
+LinkedIn: `https://www.linkedin.com/in/vivek-thakkar-b94361121/`
+Email: `thakkarv29@gmail.com`
+GitHub: `https://github.com/VivekNThakkar`
 
 Happy coding!
