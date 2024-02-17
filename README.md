@@ -1,13 +1,13 @@
-**Node.js Express PhonePe Payment Gateway Integration**
+# Node.js Express PhonePe Payment Gateway Integration
 
 Welcome to the Node.js Express PhonePe Payment Gateway Integration repository! This project demonstrates the seamless integration of the PhonePe payment gateway into a Node.js and Express application. Follow the comprehensive guide below to set up the payment gateway for User Acceptance Testing (UAT).
 
-**Features**
+## Features
 
 /pay API: Initiate payments and redirect users to the PhonePe payment flow.
 /payment/validate/:merchantTransactionId API: Validate payment status using merchantTransactionId.
 
-**UAT Testing Credentials**
+## UAT Testing Credentials
 
 For testing purposes in the UAT environment, use the following credentials:
 
@@ -17,7 +17,7 @@ Expiry year: 44
 CVV: 936
 OTP: 123456
 
-**How to Run**
+## How to Run
 
 Clone the project:
 `git clone https://github.com/VivekNThakkar/phonepe-express.git`
@@ -43,7 +43,7 @@ Method: GET
 Endpoint: /payment/validate/:merchantTransactionId
 
 
-# Contact Information
+## Contact Information
 For any inquiries, collaborations, or development work, feel free to reach out:
 
 LinkedIn: https://www.linkedin.com/in/vivek-thakkar-b94361121/
