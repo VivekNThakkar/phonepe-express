@@ -43,7 +43,7 @@ app.get("/pay", async function (req, res, next) {
   // Generate a unique merchant transaction ID for each transaction
   let merchantTransactionId = uniqid();
 
-  // redirect url => phonePe will redirect the user to this url once payment is completed. It will always be a GET request
+  // redirect url => phonePe will redirect the user to this url once payment is completed. It will be a GET request, since redirectMode is "REDIRECT"
   let normalPayLoad = {
     merchantId: MERCHANT_ID, //* PHONEPE_MERCHANT_ID . Unique for each account (private)
     merchantTransactionId: merchantTransactionId,
